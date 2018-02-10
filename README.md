@@ -1,0 +1,2 @@
+# C-tryhard
+some practice
