@@ -13,10 +13,11 @@ namespace Test1
             int num, num_1;
             
             Console.WriteLine("Enter first number: ");
-            num = Convert.ToInt32() (Console.ReadLine());  //Конвертация в число.
+            num = Convert.ToInt32 (Console.ReadLine());  //Конвертация в число.
             Console.WriteLine("\nEnter second number: ");
-            num_1 = Convert.ToInt32() (Console.ReadLine());  //Конвертация в число.
-            Console.WriteLine("The result is: " + (num + num_1));
+            num_1 = Convert.ToInt32 (Console.ReadLine());  //Конвертация в число.
+            Console.WriteLine("The result is: " + (num + num_1).ToString());
+            Console.ReadKey();
         }
     }
 }
